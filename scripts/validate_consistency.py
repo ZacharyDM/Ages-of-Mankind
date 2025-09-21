@@ -23,8 +23,10 @@ def find_files_with_pattern(directory, patterns, extensions):
             if any(file.endswith(ext) for ext in extensions):
                 file_path = os.path.join(root, file)
                 
-                # Skip validation and test scripts to avoid false positives
-                if file_path.endswith('validate_consistency.py') or file_path.endswith('test_consistency.py'):
+                # Skip validation/test scripts and migration documentation
+                if (file_path.endswith('validate_consistency.py') or 
+                    file_path.endswith('test_consistency.py') or
+                    file_path.endswith('MIGRATION.md')):
                     continue
                     
                 try:
