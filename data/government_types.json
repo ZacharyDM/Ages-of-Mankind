@@ -1,0 +1,36 @@
+{
+  "government_types": {
+    "band_clan": {
+      "id": "band_clan",
+      "name": "Band Clan",
+      "description": "A small nomadic group organized around kinship ties and led by the most capable hunters and gatherers. These bands represent the earliest form of human social organization during the Paleolithic era.",
+      "category": "tribal",
+      "tier": 1,
+      "requirements": {
+        "technology": [],
+        "population": {
+          "min": 10,
+          "max": 150
+        }
+      },
+      "modifiers": {
+        "unity": -0.1,
+        "stability": 0.1,
+        "population_growth": 0.05,
+        "research_speed": -0.2,
+        "military_tradition": 0.1
+      },
+      "mechanics": {
+        "elections": false,
+        "succession": "elective",
+        "can_form_alliances": true,
+        "diplomatic_relations_limit": 3
+      },
+      "flavor": {
+        "leader_title": "Band Leader",
+        "ruler_title": "Chief Hunter",
+        "government_name": "Band Clan"
+      }
+    }
+  }
+}

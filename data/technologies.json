@@ -1,0 +1,35 @@
+{
+  "technologies": {
+    "hunter_gatherer_basics": {
+      "id": "hunter_gatherer_basics",
+      "name": "Hunter-Gatherer Basics",
+      "description": "The fundamental knowledge of hunting animals and gathering plants for survival, essential for Band Clan societies.",
+      "era": "paleolithic",
+      "cost": 10,
+      "prerequisites": [],
+      "unlocks": {
+        "governments": ["band_clan"],
+        "buildings": ["primitive_camp"],
+        "units": ["hunter_band"]
+      },
+      "modifiers": {
+        "food_production": 0.1,
+        "population_capacity": 20
+      }
+    },
+    "tribal_cooperation": {
+      "id": "tribal_cooperation",
+      "name": "Band Cooperation",
+      "description": "Advanced coordination techniques that allow Band Clans to work together more effectively for hunting and resource gathering.",
+      "era": "paleolithic",
+      "cost": 25,
+      "prerequisites": ["hunter_gatherer_basics"],
+      "unlocks": {
+        "modifiers": {
+          "band_clan_unity": 0.15,
+          "band_clan_efficiency": 0.1
+        }
+      }
+    }
+  }
+}
