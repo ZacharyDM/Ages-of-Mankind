@@ -1,0 +1,51 @@
+l_english:
+ # Government Types
+ band_government:0 "Band"
+ band_government_desc:0 "A small nomadic group of hunter-gatherers who move freely across the land, bound together by kinship and necessity. Bands cannot settle permanently but must constantly search for food and resources."
+ 
+ # Eras
+ paleolithic_era:0 "Paleolithic Era"
+ paleolithic_era_desc:0 "The Stone Age - humanity's earliest period when our ancestors lived as nomadic hunter-gatherers, crafting simple stone tools and learning to control fire."
+ 
+ mesolithic_era:0 "Mesolithic Era" 
+ mesolithic_era_desc:0 "The Middle Stone Age - a transitional period as humans began creating more sophisticated tools and establishing semi-permanent settlements."
+ 
+ neolithic_era:0 "Neolithic Era"
+ neolithic_era_desc:0 "The New Stone Age - the Agricultural Revolution begins as humans learn to domesticate plants and animals, leading to the first permanent settlements."
+ 
+ chalcolithic_era:0 "Chalcolithic Era"
+ chalcolithic_era_desc:0 "The Copper Age - humans discover metalworking and create the first fortified settlements as societies grow more complex."
+ 
+ bronze_age_era:0 "Bronze Age"
+ bronze_age_era_desc:0 "The age of the first true civilizations, with advanced metalworking, writing systems, and complex social hierarchies."
+ 
+ iron_age_era:0 "Iron Age"  
+ iron_age_era_desc:0 "The classical period of human civilization, marked by the widespread use of iron tools and weapons and the rise of great empires."
+ 
+ early_medieval_era:0 "Early Medieval"
+ early_medieval_era_desc:0 "The Dark Ages - a period of political fragmentation and cultural transformation following the fall of classical civilizations."
+ 
+ high_medieval_era:0 "High Medieval"
+ high_medieval_era_desc:0 "The peak of medieval civilization, characterized by feudalism, the rise of universities, and great architectural achievements."
+ 
+ late_medieval_era:0 "Late Medieval"
+ late_medieval_era_desc:0 "The end of the Middle Ages, marked by the Renaissance, increased trade, and the beginnings of global exploration."
+ 
+ age_of_revolution_era:0 "Age of Revolution"
+ age_of_revolution_era_desc:0 "The final era of transformation, featuring scientific revolution, political upheavals, and the foundations of the modern world."
+ 
+ # Innovations
+ stone_tools:0 "Stone Tools"
+ stone_tools_desc:0 "The creation and refinement of stone implements for cutting, scraping, and hunting - humanity's first technology."
+ 
+ fire_making:0 "Fire Making"
+ fire_making_desc:0 "The mastery of creating and controlling fire, revolutionizing human life by providing warmth, protection, and cooked food."
+ 
+ hunting_techniques:0 "Hunting Techniques"
+ hunting_techniques_desc:0 "Organized methods for tracking and killing prey, including group tactics and specialized tools."
+ 
+ shelter_construction:0 "Shelter Construction"
+ shelter_construction_desc:0 "The knowledge of building temporary and semi-permanent shelters for protection from the elements."
+ 
+ language_development:0 "Language Development"
+ language_development_desc:0 "Complex communication systems that allow for the transmission of knowledge and culture across generations."

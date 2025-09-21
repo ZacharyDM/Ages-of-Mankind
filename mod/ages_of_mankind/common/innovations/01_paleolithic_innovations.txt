@@ -1,0 +1,177 @@
+# Ages of Mankind - Paleolithic Era Technologies
+# Basic survival and tool-making technologies for the earliest human societies
+
+# Stone Tools - The foundation of human technology
+stone_tools = {
+	group = culture_group_military
+	
+	is_shown = {
+		culture = {
+			has_innovation = stone_tools
+		}
+	}
+	
+	can_progress = {
+		culture = {
+			has_cultural_parameter = can_learn_stone_tools
+		}
+	}
+	
+	progress_pass_cost = {
+		prestige = {
+			if = {
+				limit = {
+					culture = {
+						has_cultural_parameter = advanced_stone_working
+					}
+				}
+				add = -10
+			}
+			value = 50
+		}
+	}
+	
+	character_modifier = {
+		prowess = 1
+		monthly_prestige = 0.05
+	}
+	
+	culture_modifier = {
+		army_damage_mult = 0.02
+		development_growth_factor = 0.01
+	}
+}
+
+# Fire Making - Control of fire
+fire_making = {
+	group = culture_group_civic
+	
+	is_shown = {
+		culture = {
+			has_innovation = fire_making
+		}
+	}
+	
+	can_progress = {
+		culture = {
+			has_cultural_parameter = can_learn_fire_making
+		}
+	}
+	
+	progress_pass_cost = {
+		prestige = {
+			value = 75
+		}
+	}
+	
+	character_modifier = {
+		health = 0.25
+		monthly_prestige = 0.1
+	}
+	
+	culture_modifier = {
+		development_growth_factor = 0.02
+		supply_duration = 0.1
+		winter_supply_loss = -0.1
+	}
+}
+
+# Hunting Techniques - Organized hunting methods
+hunting_techniques = {
+	group = culture_group_military
+	
+	is_shown = {
+		culture = {
+			has_innovation = hunting_techniques
+		}
+	}
+	
+	can_progress = {
+		culture = {
+			has_innovation = stone_tools
+		}
+	}
+	
+	progress_pass_cost = {
+		prestige = {
+			value = 60
+		}
+	}
+	
+	character_modifier = {
+		prowess = 2
+		monthly_prestige = 0.08
+	}
+	
+	culture_modifier = {
+		levy_size = 0.05
+		army_damage_mult = 0.03
+		supply_duration = 0.15
+	}
+}
+
+# Shelter Construction - Basic shelter building
+shelter_construction = {
+	group = culture_group_civic
+	
+	is_shown = {
+		culture = {
+			has_innovation = shelter_construction
+		}
+	}
+	
+	can_progress = {
+		culture = {
+			has_innovation = fire_making
+		}
+	}
+	
+	progress_pass_cost = {
+		prestige = {
+			value = 80
+		}
+	}
+	
+	character_modifier = {
+		health = 0.5
+		monthly_prestige = 0.1
+	}
+	
+	culture_modifier = {
+		development_growth_factor = 0.03
+		winter_supply_loss = -0.15
+		fort_level = 0.1
+	}
+}
+
+# Language Development - Complex communication
+language_development = {
+	group = culture_group_civic
+	
+	is_shown = {
+		culture = {
+			has_innovation = language_development
+		}
+	}
+	
+	can_progress = {
+		always = yes
+	}
+	
+	progress_pass_cost = {
+		prestige = {
+			value = 100
+		}
+	}
+	
+	character_modifier = {
+		diplomacy = 1
+		monthly_prestige = 0.15
+	}
+	
+	culture_modifier = {
+		cultural_head_fascination_mult = 0.1
+		cultural_fascination_progress_mult = 0.05
+		development_growth_factor = 0.02
+	}
+}

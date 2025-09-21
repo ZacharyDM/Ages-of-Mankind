@@ -1,0 +1,215 @@
+# Ages of Mankind - Early Human Cultures
+# Defining the basic cultural groups and early human societies
+
+# Paleolithic Culture Groups
+paleolithic_cultures = {
+	
+	# Early Homo Sapiens - African Origins
+	early_african = {
+		color = { 101 67 33 }
+		
+		# Cultural Traditions
+		ethos = ethos_stoic # Survival-focused
+		heritage = heritage_tribal # Early tribal organization
+		language = language_proto_human # Theoretical early language
+		martial = martial_custom_only_men # Traditional roles
+		
+		# Cultural Parameters
+		cultural_acceptance = {
+			common_ancestry = 40
+			cultural_blending = 30
+		}
+		
+		# Available Innovations
+		discover_innovation_chance = {
+			base = 5
+			
+			# Stone tools come naturally
+			modifier = {
+				factor = 2.0
+				innovation = stone_tools
+			}
+		}
+		
+		# Band government preferred
+		preferred_governments = {
+			band_government
+		}
+		
+		# Basic traditions
+		traditions = {
+			tradition_hunter_gatherers
+			tradition_oral_tradition
+			tradition_tribal_unity
+		}
+		
+		# Lifestyle focus
+		cultural_head_fascination_mult = {
+			survival_focus = 0.3
+		}
+		
+		name_list = name_list_early_african
+		
+		coa_gfx = african_group_coa_gfx
+		building_gfx = african_building_gfx
+		clothing_gfx = african_clothing_gfx
+		unit_gfx = african_unit_gfx
+	}
+	
+	# Early European Groups
+	early_european = {
+		color = { 67 101 33 }
+		
+		ethos = ethos_stoic
+		heritage = heritage_tribal
+		language = language_proto_european
+		martial = martial_custom_only_men
+		
+		cultural_acceptance = {
+			common_ancestry = 35
+			cultural_blending = 25
+		}
+		
+		discover_innovation_chance = {
+			base = 5
+			
+			# Adaptation to cold climates
+			modifier = {
+				factor = 2.0
+				innovation = shelter_construction
+			}
+		}
+		
+		preferred_governments = {
+			band_government
+		}
+		
+		traditions = {
+			tradition_hunter_gatherers
+			tradition_hardy_warriors # Adapted to harsh climates
+			tradition_ritualistic
+		}
+		
+		cultural_head_fascination_mult = {
+			survival_focus = 0.25
+			shelter_innovation = 0.35
+		}
+		
+		name_list = name_list_early_european
+		
+		coa_gfx = european_group_coa_gfx
+		building_gfx = european_building_gfx
+		clothing_gfx = european_clothing_gfx
+		unit_gfx = european_unit_gfx
+	}
+	
+	# Early Asian Groups  
+	early_asian = {
+		color = { 33 67 101 }
+		
+		ethos = ethos_communal
+		heritage = heritage_tribal
+		language = language_proto_asian
+		martial = martial_custom_only_men
+		
+		cultural_acceptance = {
+			common_ancestry = 40
+			cultural_blending = 35
+		}
+		
+		discover_innovation_chance = {
+			base = 6
+			
+			# Strong focus on tool-making
+			modifier = {
+				factor = 2.5
+				innovation = stone_tools
+			}
+		}
+		
+		preferred_governments = {
+			band_government
+		}
+		
+		traditions = {
+			tradition_hunter_gatherers
+			tradition_skilled_crafters # Advanced tool-making
+			tradition_collective_lands
+		}
+		
+		cultural_head_fascination_mult = {
+			craft_innovation = 0.4
+		}
+		
+		name_list = name_list_early_asian
+		
+		coa_gfx = asian_group_coa_gfx
+		building_gfx = asian_building_gfx
+		clothing_gfx = asian_clothing_gfx
+		unit_gfx = asian_unit_gfx
+	}
+}
+
+# Culture Divergence Mechanics
+culture_divergence = {
+	# Environmental adaptation triggers
+	geographic_divergence = {
+		
+		# Mountains encourage isolation and unique development
+		mountain_adaptation = {
+			trigger = {
+				capital_province = {
+					terrain = mountains
+				}
+			}
+			
+			effect = {
+				culture = {
+					add_cultural_parameter = mountain_adapted
+					add_innovation_progress = {
+						innovation = shelter_construction
+						progress = 10
+					}
+				}
+			}
+		}
+		
+		# Coastal groups develop differently
+		coastal_adaptation = {
+			trigger = {
+				capital_province = {
+					is_coastal = yes
+				}
+			}
+			
+			effect = {
+				culture = {
+					add_cultural_parameter = coastal_adapted
+					add_innovation_progress = {
+						innovation = fishing_techniques
+						progress = 15
+					}
+				}
+			}
+		}
+		
+		# Desert survival specialization  
+		desert_adaptation = {
+			trigger = {
+				capital_province = {
+					terrain = desert
+				}
+			}
+			
+			effect = {
+				culture = {
+					add_cultural_parameter = desert_adapted
+					add_innovation_progress = {
+						innovation = water_conservation
+						progress = 20
+					}
+				}
+			}
+		}
+	}
+}

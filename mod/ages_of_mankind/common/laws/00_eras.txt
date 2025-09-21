@@ -1,0 +1,158 @@
+# Ages of Mankind - Historical Eras System
+# Defines the progression from Paleolithic to Age of Revolution
+
+# Paleolithic Era (2.6 million - 10,000 BCE)
+paleolithic_era = {
+	default = yes
+	
+	# Starting era - hunter-gatherer bands
+	can_form_nation = no
+	max_tribal_development = 5
+	
+	# Technology restrictions
+	can_build_castles = no
+	can_build_cities = no
+	can_build_temples = no
+	
+	# Cultural restrictions
+	max_cultural_fascination_progress = 25
+	
+	era_bonus = {
+		monthly_prestige = 0.1
+		supply_duration = 0.5
+	}
+}
+
+# Mesolithic Era (10,000 - 8,000 BCE) 
+mesolithic_era = {
+	# Transition period - early settlements
+	max_tribal_development = 10
+	
+	can_build_temples = yes # Simple spiritual sites
+	
+	max_cultural_fascination_progress = 35
+	
+	era_bonus = {
+		monthly_prestige = 0.15
+		supply_duration = 0.4
+		development_growth = 0.05
+	}
+}
+
+# Neolithic Era (8,000 - 3,300 BCE)
+neolithic_era = {
+	# Agricultural revolution begins
+	max_tribal_development = 20
+	
+	can_build_temples = yes
+	can_form_nation = yes # First chiefdoms
+	
+	max_cultural_fascination_progress = 50
+	
+	era_bonus = {
+		monthly_prestige = 0.2
+		development_growth = 0.1
+		fertility = 0.05
+	}
+}
+
+# Chalcolithic Era (3,300 - 2,500 BCE)
+chalcolithic_era = {
+	# Copper Age - first metals
+	max_tribal_development = 30
+	
+	can_build_castles = yes # Fortified settlements
+	can_build_temples = yes
+	can_build_cities = yes
+	
+	max_cultural_fascination_progress = 65
+	
+	era_bonus = {
+		monthly_prestige = 0.25
+		development_growth = 0.15
+		army_maintenance_mult = -0.05
+	}
+}
+
+# Bronze Age (2,500 - 1,200 BCE)
+bronze_age_era = {
+	# First true civilizations
+	max_tribal_development = 50
+	
+	can_build_castles = yes
+	can_build_temples = yes
+	can_build_cities = yes
+	can_form_nation = yes
+	
+	max_cultural_fascination_progress = 80
+	
+	era_bonus = {
+		monthly_prestige = 0.3
+		development_growth = 0.2
+		levy_size = 0.1
+		tax_mult = 0.05
+	}
+}
+
+# Iron Age (1,200 - 500 CE)
+iron_age_era = {
+	# Classical civilizations
+	max_tribal_development = 75
+	
+	era_bonus = {
+		monthly_prestige = 0.35
+		development_growth = 0.25
+		levy_size = 0.15
+		tax_mult = 0.1
+		cultural_fascination_progress_mult = 0.1
+	}
+}
+
+# Early Medieval (500 - 1000 CE)
+early_medieval_era = {
+	# Dark Ages and rise of feudalism
+	era_bonus = {
+		monthly_prestige = 0.4
+		development_growth = 0.3
+		levy_size = 0.2
+		tax_mult = 0.15
+		cultural_fascination_progress_mult = 0.15
+	}
+}
+
+# High Medieval (1000 - 1300 CE) 
+high_medieval_era = {
+	# Peak of medieval civilization
+	era_bonus = {
+		monthly_prestige = 0.45
+		development_growth = 0.35
+		levy_size = 0.25
+		tax_mult = 0.2
+		cultural_fascination_progress_mult = 0.2
+	}
+}
+
+# Late Medieval (1300 - 1500 CE)
+late_medieval_era = {
+	# Renaissance begins
+	era_bonus = {
+		monthly_prestige = 0.5
+		development_growth = 0.4
+		levy_size = 0.3
+		tax_mult = 0.25
+		cultural_fascination_progress_mult = 0.25
+	}
+}
+
+# Age of Revolution (1500 - 1800 CE)
+age_of_revolution_era = {
+	# Final era - transition to EU4
+	era_bonus = {
+		monthly_prestige = 0.6
+		development_growth = 0.5
+		levy_size = 0.4
+		tax_mult = 0.35
+		cultural_fascination_progress_mult = 0.3
+		innovation_growth = 0.2
+	}
+}

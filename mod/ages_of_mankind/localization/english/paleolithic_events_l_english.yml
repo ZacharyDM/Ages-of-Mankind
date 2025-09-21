@@ -1,0 +1,22 @@
+l_english:
+ # Paleolithic Events
+ 
+ # Fire Discovery Event
+ ages_of_mankind.0001.t:0 "The Sacred Flame"
+ ages_of_mankind.0001.desc:0 "Lightning strikes a dead tree, and from its smoldering remains comes something magical - fire! The dancing flames cast away the darkness and cold that have plagued your people. This discovery could change everything for your band."
+ ages_of_mankind.0001.a:0 "I will guard this sacred knowledge."
+ ages_of_mankind.0001.b:0 "We must all learn from this wonder."
+ 
+ # Stone Tools Event
+ ages_of_mankind.0002.t:0 "The First Tools"
+ ages_of_mankind.0002.desc:0 "While examining stones by the river, you notice how one sharp edge can cut through hide that fingers cannot tear. By carefully striking stones together, you discover how to create cutting implements that make hunting and daily tasks much easier."
+ ages_of_mankind.0002.a:0 "I will perfect this craft."
+ ages_of_mankind.0002.b:0 "Everyone should know this technique."
+ 
+ # Leadership Challenge Event
+ ages_of_mankind.0003.t:0 "Challenge to Leadership"
+ ages_of_mankind.0003.desc:0 "A strong member of your band questions your leadership. [challenger.GetName] believes they could better protect and provide for the group. The other band members watch tensely as this challenge unfolds."
+ ages_of_mankind.0003.a:0 "I will prove my worth in combat."
+ ages_of_mankind.0003.a.success:0 "You emerge victorious from the contest, your leadership confirmed by strength."
+ ages_of_mankind.0003.a.failure:0 "Despite your efforts, you are defeated. The band accepts new leadership."
+ ages_of_mankind.0003.b:0 "Perhaps it is time for new leadership."

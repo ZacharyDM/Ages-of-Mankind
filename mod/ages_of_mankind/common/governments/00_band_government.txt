@@ -1,0 +1,47 @@
+# Band Government - The starting government type for the Ages of Mankind
+# Represents small nomadic groups of hunter-gatherers
+
+band_government = {
+	create_cadet_branches = no
+	rulers_should_have_dynasty = no
+	dynasty_named_realms = no
+	always_use_patronym = yes
+	
+	primary_holding = none # Landless nomadic groups
+	
+	required_county_holdings = 0
+	allows_noble_adoption = no
+	allows_legitimization = no
+	
+	fallback = tribal_government
+	
+	flag = government_is_landless
+	flag = government_is_nomadic
+	
+	color = { 139 69 19 } # Saddle brown color
+	
+	can_title_be_inherited_by = {
+		explicit_otherwise = yes
+	}
+	
+	can_create_cadet_branches = {
+		always = no
+	}
+	
+	# Band leaders are chosen by consensus or prowess
+	valid_holdings = {
+		# No valid holdings - truly nomadic
+	}
+	
+	# Bands can exist without land
+	can_be_landless_ruler = yes
+	
+	# Basic traits for band leaders
+	opinion_of_liege = {
+		tribal_government = 10
+		feudal_government = -20
+		clan_government = -10
+		republic_government = -30
+		theocracy_government = -25
+	}
+}

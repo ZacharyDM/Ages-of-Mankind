@@ -1,0 +1,62 @@
+l_english:
+ # Paleolithic Traits
+ hunter:0 "Hunter"
+ hunter_desc:0 "This character excels at hunting and tracking prey, providing vital sustenance for their band."
+ 
+ gatherer:0 "Gatherer"
+ gatherer_desc:0 "This character knows which plants are safe to eat and where to find valuable resources."
+ 
+ fire_keeper:0 "Fire Keeper"
+ fire_keeper_desc:0 "This character guards the precious knowledge of fire-making, essential for survival."
+ 
+ stone_shaper:0 "Stone Shaper"
+ stone_shaper_desc:0 "This character crafts the stone tools essential for hunting and daily survival."
+ 
+ storyteller:0 "Storyteller" 
+ storyteller_desc:0 "This character preserves the history and wisdom of the band through stories and songs."
+ 
+ tracker:0 "Tracker"
+ tracker_desc:0 "This character can follow the faintest trail and never loses their way."
+ 
+ weather_wise:0 "Weather Wise"
+ weather_wise_desc:0 "This character understands the patterns of weather and seasons, crucial for band survival."
+ 
+ # Cultures
+ early_african:0 "Early African"
+ early_african_desc:0 "The first modern humans, emerging from the cradle of humanity with the fundamental skills of survival."
+ 
+ early_european:0 "Early European" 
+ early_european_desc:0 "Hardy survivors who adapted to the harsh climates of ice-age Europe through innovation and resilience."
+ 
+ early_asian:0 "Early Asian"
+ early_asian_desc:0 "Skilled craftsmen who spread across the vast Asian continent, developing sophisticated tool-making techniques."
+ 
+ # Cultural Parameters
+ can_learn_stone_tools:0 "Can Learn Stone Tools"
+ advanced_stone_working:0 "Advanced Stone Working"
+ can_learn_fire_making:0 "Can Learn Fire Making"
+ mountain_adapted:0 "Mountain Adapted"
+ coastal_adapted:0 "Coastal Adapted"
+ desert_adapted:0 "Desert Adapted"
+ 
+ # Cultural Traditions
+ tradition_hunter_gatherers:0 "Hunter-Gatherers"
+ tradition_hunter_gatherers_desc:0 "This culture lives by hunting wild animals and gathering edible plants, moving seasonally to follow resources."
+ 
+ tradition_oral_tradition:0 "Oral Tradition"
+ tradition_oral_tradition_desc:0 "Knowledge and stories are passed down through spoken word, creating strong cultural bonds."
+ 
+ tradition_tribal_unity:0 "Tribal Unity"
+ tradition_tribal_unity_desc:0 "The survival of the group comes before individual desires, fostering cooperation and mutual aid."
+ 
+ tradition_hardy_warriors:0 "Hardy Warriors"
+ tradition_hardy_warriors_desc:0 "Hardened by harsh environments, these people produce tough and resilient fighters."
+ 
+ tradition_ritualistic:0 "Ritualistic"
+ tradition_ritualistic_desc:0 "Important events are marked by elaborate ceremonies that strengthen social bonds."
+ 
+ tradition_skilled_crafters:0 "Skilled Crafters"
+ tradition_skilled_crafters_desc:0 "This culture values technical skill and the creation of superior tools and implements."
+ 
+ tradition_collective_lands:0 "Collective Lands"
+ tradition_collective_lands_desc:0 "Territory belongs to the entire community rather than individuals, encouraging shared responsibility."
