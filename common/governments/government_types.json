@@ -1,0 +1,16 @@
+{
+  "government_types": [
+    {
+      "id": "band_clan",
+      "name": "Band Clan",
+      "description": "A small group of related families living together and sharing resources, typical of hunter-gatherer societies in the Paleolithic era.",
+      "tier": 1,
+      "era": "paleolithic",
+      "mechanics": {
+        "max_population": 150,
+        "technology_bonus": 0.1,
+        "unity_requirement": "low"
+      }
+    }
+  ]
+}
