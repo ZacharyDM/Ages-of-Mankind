@@ -1,0 +1,31 @@
+{
+  "government_types": {
+    "tribal_clan": {
+      "name": "Tribal Clan",
+      "description": "A small kinship-based society led by elders or a chieftain. The most basic form of human social organization in the Paleolithic era.",
+      "tier": 1,
+      "era": "paleolithic",
+      "is_starting_government": true,
+      "modifiers": {
+        "population_growth": 0.02,
+        "military_maintenance": -0.1,
+        "technology_cost": 0.2,
+        "stability": 0.5
+      },
+      "mechanics": {
+        "succession": "eldest_child",
+        "decision_making": "council_of_elders",
+        "max_population": 500,
+        "can_wage_war": true,
+        "can_conduct_diplomacy": false
+      },
+      "requirements": {
+        "technologies": [],
+        "minimum_development": 0,
+        "era_unlocked": "paleolithic"
+      },
+      "color": "#8B4513",
+      "icon": "tribal_government"
+    }
+  }
+}

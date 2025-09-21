@@ -1,0 +1,101 @@
+{
+  "technologies": {
+    "stone_tools": {
+      "name": "Stone Tools",
+      "description": "The ability to craft basic tools from stone, marking the beginning of human technological development.",
+      "type": "scientific",
+      "era": "paleolithic",
+      "tier": 1,
+      "cost": 10,
+      "research_time": 30,
+      "prerequisites": [],
+      "effects": {
+        "hunting_efficiency": 0.15,
+        "food_gathering": 0.1,
+        "population_growth": 0.01
+      },
+      "unlocks": {
+        "buildings": ["primitive_shelter"],
+        "units": ["stone_age_hunter"],
+        "decisions": ["organize_hunt"]
+      }
+    },
+    "fire_making": {
+      "name": "Fire Making",
+      "description": "Mastery of fire creation and control, revolutionizing cooking, warmth, and protection.",
+      "type": "scientific",
+      "era": "paleolithic",
+      "tier": 1,
+      "cost": 15,
+      "research_time": 45,
+      "prerequisites": [],
+      "effects": {
+        "food_safety": 0.2,
+        "cold_resistance": 0.3,
+        "predator_protection": 0.25,
+        "population_growth": 0.02
+      },
+      "unlocks": {
+        "buildings": ["fire_pit"],
+        "decisions": ["control_fire", "cook_food"]
+      }
+    },
+    "basic_language": {
+      "name": "Basic Language",
+      "description": "Development of simple communication systems enabling coordination and knowledge transfer.",
+      "type": "cultural",
+      "era": "paleolithic",
+      "tier": 1,
+      "cost": 12,
+      "research_time": 40,
+      "prerequisites": [],
+      "effects": {
+        "coordination_efficiency": 0.1,
+        "knowledge_transfer": 0.05,
+        "social_cohesion": 0.15
+      },
+      "unlocks": {
+        "mechanics": ["tribe_coordination"],
+        "decisions": ["share_knowledge"]
+      }
+    },
+    "hunting_tactics": {
+      "name": "Hunting Tactics",
+      "description": "Organized hunting strategies and group coordination for taking down large prey.",
+      "type": "military",
+      "era": "paleolithic",
+      "tier": 1,
+      "cost": 18,
+      "research_time": 50,
+      "prerequisites": ["basic_language"],
+      "effects": {
+        "hunting_success": 0.25,
+        "large_game_access": 0.3,
+        "military_organization": 0.1
+      },
+      "unlocks": {
+        "units": ["organized_hunters"],
+        "decisions": ["big_hunt", "establish_hunting_grounds"]
+      }
+    },
+    "shelter_construction": {
+      "name": "Shelter Construction",
+      "description": "Techniques for building more permanent and protective shelters from available materials.",
+      "type": "economic",
+      "era": "paleolithic",
+      "tier": 1,
+      "cost": 20,
+      "research_time": 60,
+      "prerequisites": ["stone_tools"],
+      "effects": {
+        "weather_protection": 0.4,
+        "settlement_stability": 0.2,
+        "population_capacity": 50
+      },
+      "unlocks": {
+        "buildings": ["improved_shelter", "communal_hut"],
+        "decisions": ["establish_camp"]
+      }
+    }
+  }
+}

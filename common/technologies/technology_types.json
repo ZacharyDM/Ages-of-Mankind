@@ -1,0 +1,39 @@
+{
+  "technology_types": {
+    "military": {
+      "name": "Military Technology",
+      "description": "Advances in warfare, weapons, and military organization",
+      "color": "#8B0000",
+      "icon": "military_tech",
+      "category": "military"
+    },
+    "civic": {
+      "name": "Civic Technology", 
+      "description": "Developments in governance, law, and social organization",
+      "color": "#4169E1",
+      "icon": "civic_tech",
+      "category": "civic"
+    },
+    "economic": {
+      "name": "Economic Technology",
+      "description": "Innovations in trade, agriculture, and resource management",
+      "color": "#228B22",
+      "icon": "economic_tech", 
+      "category": "economic"
+    },
+    "cultural": {
+      "name": "Cultural Technology",
+      "description": "Progress in arts, religion, and cultural practices",
+      "color": "#9932CC",
+      "icon": "cultural_tech",
+      "category": "cultural"
+    },
+    "scientific": {
+      "name": "Scientific Technology",
+      "description": "Advances in knowledge, tools, and understanding of the world",
+      "color": "#FF8C00",
+      "icon": "scientific_tech",
+      "category": "scientific"
+    }
+  }
+}
