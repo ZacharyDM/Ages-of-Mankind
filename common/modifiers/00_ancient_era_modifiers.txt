@@ -1,0 +1,111 @@
+# Ancient Era Modifiers
+
+# Province Modifiers
+center_of_empire = {
+	monthly_income = 2.0
+	levy_size = 0.25
+	development_growth = 0.5
+	
+	desc = "center_of_empire_desc"
+}
+
+center_of_learning = {
+	development_growth = 0.3
+	monthly_county_control_change_factor = 0.1
+	
+	desc = "center_of_learning_desc"
+}
+
+mandate_of_heaven = {
+	monthly_income = 1.5
+	levy_size = 0.2
+	development_growth = 0.4
+	
+	desc = "mandate_of_heaven_desc"
+}
+
+trade_crossroads = {
+	monthly_income = 1.0
+	development_growth = 0.2
+	
+	desc = "trade_crossroads_desc"
+}
+
+iron_production = {
+	monthly_income = 0.5
+	men_at_arms_recruitment_cost = -0.1
+	
+	desc = "iron_production_desc"
+}
+
+forest_warriors = {
+	levy_size = 0.15
+	defender_advantage = 5
+	
+	desc = "forest_warriors_desc"
+}
+
+recent_conquest = {
+	monthly_county_control_change_factor = -0.1
+	county_opinion_add = -10
+	
+	desc = "recent_conquest_desc"
+}
+
+druidic_sanctuary = {
+	monthly_county_control_change_factor = 0.05
+	same_faith_county_opinion_add = 5
+	
+	desc = "druidic_sanctuary_desc"
+}
+
+eternal_city = {
+	monthly_income = 3.0
+	monthly_prestige = 0.5
+	development_growth = 0.6
+	
+	desc = "eternal_city_desc"
+}
+
+# Character Modifiers for Ancient Era
+pax_romana = {
+	diplomacy = 2
+	monthly_prestige = 0.3
+	vassal_opinion = 10
+	
+	desc = "pax_romana_desc"
+}
+
+barbarian_king = {
+	martial = 2
+	prowess = 3
+	same_culture_opinion = 15
+	different_culture_opinion = -5
+	
+	desc = "barbarian_king_desc"
+}
+
+mandate_holder = {
+	stewardship = 2
+	learning = 1
+	vassal_opinion = 5
+	county_opinion_add = 10
+	
+	desc = "mandate_holder_desc"
+}
+
+silk_road_trader = {
+	stewardship = 3
+	monthly_income_mult = 0.1
+	
+	desc = "silk_road_trader_desc"
+}
+
+warrior_queen = {
+	martial = 2
+	prowess = 2
+	same_culture_opinion = 20
+	female_same_culture_opinion = 30
+	
+	desc = "warrior_queen_desc"
+}

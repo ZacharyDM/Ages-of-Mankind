@@ -1,0 +1,88 @@
+# Other Ancient Empire Title Histories
+
+# Parthian Empire
+e_parthian_empire = {
+	color = { 0.7 0.5 0.1 }
+	
+	1.1.1 = {
+		holder = 20003 # Vonones I
+		
+		culture = parthian
+		religion = zoroastrianism
+		
+		effect = {
+			holder = {
+				add_prestige = 800
+				add_gold = 3000
+			}
+		}
+	}
+}
+
+# Han Chinese Empire
+e_han_china = {
+	color = { 0.8 0.8 0.1 }
+	
+	1.1.1 = {
+		holder = 20005 # Emperor Ping
+		
+		culture = han
+		religion = chinese_imperial_cult
+		
+		effect = {
+			holder = {
+				add_prestige = 1000
+				add_gold = 4000
+			}
+		}
+	}
+}
+
+# Kingdom of Kush
+k_kush = {
+	color = { 0.6 0.4 0.2 }
+	
+	1.1.1 = {
+		holder = 20004 # Amanirenas
+		
+		culture = nubian
+		religion = kushite_religion
+		
+		effect = {
+			holder = {
+				add_prestige = 500
+				add_gold = 2000
+			}
+		}
+	}
+}
+
+# Cherusci Tribal Territory
+c_cherusci = {
+	color = { 0.4 0.3 0.1 }
+	
+	1.1.1 = {
+		holder = 20002 # Arminius
+		
+		culture = cherusci
+		religion = germanic_religion
+		
+		effect = {
+			holder = {
+				add_prestige = 300
+			}
+		}
+	}
+}
+
+# Duchy of Lower Saxony (Germanic tribal area)
+d_lower_saxony = {
+	color = { 0.5 0.4 0.2 }
+	
+	1.1.1 = {
+		holder = 20002 # Arminius
+		
+		culture = cherusci
+		religion = germanic_religion
+	}
+}

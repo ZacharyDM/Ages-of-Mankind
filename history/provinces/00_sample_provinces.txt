@@ -1,0 +1,173 @@
+# Sample Province Histories for 1 AD
+
+# Province ID 333 - Rome
+333 = {
+	culture = roman
+	religion = roman_imperial_cult
+	
+	1.1.1 = {
+		# Rome at the height of Augustus' reign
+		change_development_level = 25
+		
+		buildings = {
+			temple_01
+			city_01
+			walls_01
+		}
+		
+		effect = {
+			# Special effects for the eternal city
+			add_province_modifier = {
+				modifier = center_of_empire
+				years = 1000
+			}
+		}
+	}
+}
+
+# Province ID 496 - Athens
+496 = {
+	culture = greek
+	religion = roman_imperial_cult # Under Roman rule but maintaining Greek culture
+	
+	1.1.1 = {
+		change_development_level = 15
+		
+		buildings = {
+			temple_01
+			city_01
+		}
+		
+		effect = {
+			add_province_modifier = {
+				modifier = center_of_learning
+				years = 500
+			}
+		}
+	}
+}
+
+# Province ID 872 - Chang'an (Han Capital region)
+872 = {
+	culture = han
+	religion = chinese_imperial_cult
+	
+	1.1.1 = {
+		change_development_level = 20
+		
+		buildings = {
+			temple_01
+			city_01
+			walls_01
+		}
+		
+		effect = {
+			add_province_modifier = {
+				modifier = mandate_of_heaven
+				years = 1000
+			}
+		}
+	}
+}
+
+# Province ID 579 - Ctesiphon (Parthian Capital)
+579 = {
+	culture = parthian
+	religion = zoroastrianism
+	
+	1.1.1 = {
+		change_development_level = 18
+		
+		buildings = {
+			temple_01
+			city_01
+		}
+		
+		effect = {
+			add_province_modifier = {
+				modifier = trade_crossroads
+				years = 500
+			}
+		}
+	}
+}
+
+# Province ID 3251 - Meroë (Kushite Capital)
+3251 = {
+	culture = nubian
+	religion = kushite_religion
+	
+	1.1.1 = {
+		change_development_level = 12
+		
+		buildings = {
+			temple_01
+		}
+		
+		effect = {
+			add_province_modifier = {
+				modifier = iron_production
+				years = 500
+			}
+		}
+	}
+}
+
+# Province ID 929 - Teutoburg Forest area (Germanic)
+929 = {
+	culture = cherusci
+	religion = germanic_religion
+	
+	1.1.1 = {
+		change_development_level = 5
+		
+		holding = tribal_holding
+		
+		effect = {
+			add_province_modifier = {
+				modifier = forest_warriors
+				years = 300
+			}
+		}
+	}
+}
+
+# Province ID 234 - Gaul (Roman controlled)
+234 = {
+	culture = gallic
+	religion = roman_imperial_cult # Recently conquered, still converting
+	
+	1.1.1 = {
+		change_development_level = 8
+		
+		buildings = {
+			temple_01
+		}
+		
+		effect = {
+			add_province_modifier = {
+				modifier = recent_conquest
+				years = 100
+			}
+		}
+	}
+}
+
+# Province ID 19 - Londinium (Britain - pre-conquest)
+19 = {
+	culture = briton
+	religion = celtic_druidism
+	
+	1.1.1 = {
+		change_development_level = 4
+		
+		holding = tribal_holding
+		
+		effect = {
+			add_province_modifier = {
+				modifier = druidic_sanctuary
+				years = 200
+			}
+		}
+	}
+}

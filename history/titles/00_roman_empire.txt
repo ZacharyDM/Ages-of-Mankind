@@ -1,0 +1,69 @@
+# Roman Empire Title History
+
+e_roman_empire = {
+	color = { 0.8 0.2 0.1 }
+	
+	# Augustus becomes first emperor
+	-27.1.16 = {
+		holder = 20001 # Augustus
+		
+		effect = {
+			holder = {
+				add_character_flag = first_roman_emperor
+			}
+		}
+	}
+	
+	1.1.1 = {
+		holder = 20001 # Augustus continues to rule
+		
+		effect = {
+			holder = {
+				add_prestige = 1000
+				add_gold = 5000
+			}
+		}
+	}
+	
+	14.8.14 = {
+		# Augustus dies, succession to Tiberius (not implemented yet)
+	}
+}
+
+# Kingdom of Italy (part of Roman Empire)
+k_italy = {
+	color = { 0.7 0.3 0.2 }
+	
+	1.1.1 = {
+		holder = 20001 # Augustus
+	}
+}
+
+# Duchy of Latium
+d_latium = {
+	color = { 0.6 0.4 0.3 }
+	
+	1.1.1 = {
+		holder = 20001 # Augustus
+	}
+}
+
+# County of Rome
+c_roma = {
+	color = { 0.8 0.2 0.1 }
+	
+	1.1.1 = {
+		holder = 20001 # Augustus
+		
+		culture = roman
+		religion = roman_imperial_cult
+		
+		effect = {
+			# Rome gets special status
+			add_county_modifier = {
+				modifier = eternal_city
+				years = 1000
+			}
+		}
+	}
+}
