@@ -1,0 +1,45 @@
+﻿l_english:
+ 
+ # Province Modifiers
+ center_of_empire:0 "Center of Empire"
+ center_of_empire_desc:0 "This province serves as the beating heart of a great empire, attracting wealth, people, and power from across the known world."
+ 
+ center_of_learning:0 "Center of Learning"
+ center_of_learning_desc:0 "This ancient seat of knowledge attracts scholars and philosophers from distant lands, fostering intellectual growth and cultural development."
+ 
+ mandate_of_heaven:0 "Mandate of Heaven"
+ mandate_of_heaven_desc:0 "This province is blessed by the divine mandate to rule, bringing prosperity and order to the realm."
+ 
+ trade_crossroads:0 "Trade Crossroads"
+ trade_crossroads_desc:0 "Located at the intersection of major trade routes, this province benefits from the constant flow of merchants and goods."
+ 
+ iron_production:0 "Iron Production"
+ iron_production_desc:0 "Rich iron deposits and skilled smiths make this province a center of weapon and tool production."
+ 
+ forest_warriors:0 "Forest Warriors"
+ forest_warriors_desc:0 "The dense forests of this province breed fierce warriors who excel at guerrilla warfare and defending their homeland."
+ 
+ recent_conquest:0 "Recent Conquest"
+ recent_conquest_desc:0 "Recently conquered by foreign forces, the local population remains restless and resistant to their new rulers."
+ 
+ druidic_sanctuary:0 "Druidic Sanctuary"
+ druidic_sanctuary_desc:0 "Sacred groves and ancient stone circles make this province a center of druidic worship and Celtic tradition."
+ 
+ eternal_city:0 "The Eternal City"
+ eternal_city_desc:0 "This legendary city stands as the greatest metropolis in the world, the capital of civilization itself."
+ 
+ # Character Modifiers
+ pax_romana:0 "Pax Romana"
+ pax_romana_desc:0 "This ruler embodies the Roman peace, bringing order and prosperity to their realm through strong governance."
+ 
+ barbarian_king:0 "Barbarian King"
+ barbarian_king_desc:0 "A fierce warrior-king who leads by example, inspiring loyalty among their people through martial prowess and courage."
+ 
+ mandate_holder:0 "Holder of the Mandate"
+ mandate_holder_desc:0 "This ruler holds the divine mandate to govern, legitimizing their authority through celestial approval."
+ 
+ silk_road_trader:0 "Silk Road Trader"
+ silk_road_trader_desc:0 "This character has mastered the lucrative trade routes connecting East and West, bringing great wealth to their realm."
+ 
+ warrior_queen:0 "Warrior Queen"
+ warrior_queen_desc:0 "A formidable female ruler who leads her people in battle, challenging traditional gender roles through strength and courage."

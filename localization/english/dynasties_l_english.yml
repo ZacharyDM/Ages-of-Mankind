@@ -1,0 +1,38 @@
+﻿l_english:
+ 
+ # Ancient Dynasty Names
+ dynn_julio_claudian:0 "Julio-Claudian"
+ dynnp_julio_claudian:0 "of the Julio-Claudian"
+ 
+ dynn_cherusci:0 "Cherusci"
+ dynnp_cherusci:0 "of the Cherusci"
+ 
+ dynn_arsacid:0 "Arsacid"
+ dynnp_arsacid:0 "Arsacid"
+ 
+ dynn_meroitic:0 "Meroitic"
+ dynnp_meroitic:0 "of Meroë"
+ 
+ dynn_han:0 "Han"
+ dynnp_han:0 "of Han"
+ 
+ dynn_suebi:0 "Suebi"
+ dynnp_suebi:0 "of the Suebi"
+ 
+ dynn_catuvellauni:0 "Catuvellauni"
+ dynnp_catuvellauni:0 "of the Catuvellauni"
+ 
+ dynn_iceni:0 "Iceni"
+ dynnp_iceni:0 "of the Iceni"
+ 
+ dynn_aedui:0 "Aedui"
+ dynnp_aedui:0 "of the Aedui"
+ 
+ dynn_arverni:0 "Arverni"
+ dynnp_arverni:0 "of the Arverni"
+ 
+ dynn_artaxiad:0 "Artaxiad"
+ dynnp_artaxiad:0 "Artaxiad"
+ 
+ dynn_scythian_royal:0 "Royal Scythian"
+ dynnp_scythian_royal:0 "of the Royal Scythians"

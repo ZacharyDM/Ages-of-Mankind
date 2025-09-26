@@ -1,0 +1,113 @@
+ancient_eastern = {
+	color = { 0.6 0.4 0.1 }
+	
+	parthian = {
+		color = { 0.7 0.5 0.1 }
+		
+		ethos = ethos_courtly
+		heritage = heritage_iranian
+		language = language_persian
+		martial_custom = martial_custom_male_only
+		traditions = {
+			tradition_horse_lords
+			tradition_ancient_miners
+			tradition_warrior_culture
+		}
+		
+		name_list = name_list_persian
+		
+		coa_gfx = { iranian_group_coa_gfx }
+		building_gfx = { arabic_building_gfx }
+		clothing_gfx = { iranian_clothing_gfx }
+		unit_gfx = { iranian_unit_gfx }
+		
+		counties = {
+			c_isfahan # Parthian heartland
+			c_ray # Ray
+			c_hamadan # Ecbatana
+			c_nishapur # Nishapur
+		}
+	}
+	
+	han = {
+		color = { 0.8 0.8 0.1 }
+		
+		ethos = ethos_bureaucratic
+		heritage = heritage_chinese
+		language = language_han
+		martial_custom = martial_custom_male_only
+		traditions = {
+			tradition_refined_poetry
+			tradition_ancient_miners
+			tradition_philosopher_culture
+		}
+		
+		name_list = name_list_chinese
+		
+		coa_gfx = { chinese_group_coa_gfx }
+		building_gfx = { chinese_building_gfx }
+		clothing_gfx = { chinese_clothing_gfx }
+		unit_gfx = { chinese_unit_gfx }
+		
+		counties = {
+			c_luoyang # Han capital
+			c_kaifeng # Kaifeng
+			c_beijing # Beijing area
+			c_nanjing # Nanjing
+		}
+	}
+	
+	scythian = {
+		color = { 0.6 0.3 0.5 }
+		
+		ethos = ethos_bellicose
+		heritage = heritage_iranian
+		language = language_scythian
+		martial_custom = martial_custom_equal
+		traditions = {
+			tradition_horse_lords
+			tradition_warrior_culture
+			tradition_forest_wardens
+		}
+		
+		name_list = name_list_alan
+		
+		coa_gfx = { iranian_group_coa_gfx }
+		building_gfx = { steppe_building_gfx }
+		clothing_gfx = { mongolic_clothing_gfx }
+		unit_gfx = { mongol_unit_gfx }
+		
+		counties = {
+			c_tanais # Don River region
+			c_cherson # Crimea
+			c_olbia # Black Sea coast
+		}
+	}
+	
+	armenian = {
+		color = { 0.5 0.2 0.7 }
+		
+		ethos = ethos_stoic
+		heritage = heritage_armenian
+		language = language_armenian
+		martial_custom = martial_custom_male_only
+		traditions = {
+			tradition_mountain_homes
+			tradition_ancient_miners
+			tradition_warrior_culture
+		}
+		
+		name_list = name_list_armenian
+		
+		coa_gfx = { armenian_group_coa_gfx }
+		building_gfx = { arabic_building_gfx }
+		clothing_gfx = { armenian_clothing_gfx }
+		unit_gfx = { armenian_unit_gfx }
+		
+		counties = {
+			c_ani # Ancient Armenia
+			c_karin # Karin
+			c_vaspurakan # Vaspurakan
+		}
+	}
+}

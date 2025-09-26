@@ -1,0 +1,78 @@
+﻿l_english:
+ 
+ # Religion Groups
+ ancient_pagan_group:0 "Ancient Pagan"
+ ancient_tribal_group:0 "Ancient Tribal"
+ ancient_eastern_group:0 "Ancient Eastern"
+ 
+ # Roman Imperial Cult
+ roman_imperial_cult:0 "Roman Imperial Cult"
+ roman_imperial_cult_adj:0 "Roman Imperial"
+ roman_imperial_cult_adherent:0 "Roman Imperial Cultist"
+ roman_imperial_cult_adherent_plural:0 "Roman Imperial Cultists"
+ roman_imperial_cult_desc:0 "The Roman Imperial Cult venerates the divine emperor and the traditional gods of Rome. It emphasizes loyalty to the state, civic duty, and the divine nature of imperial authority."
+ 
+ # Roman pantheon names
+ roman_imperial_cult_high_god_name:0 "Jupiter Optimus Maximus"
+ roman_imperial_cult_high_god_name_2:0 "the King of Gods"
+ roman_imperial_cult_high_god_name_possessive:0 "Jupiter's"
+ roman_imperial_cult_creator_name:0 "Jupiter"
+ roman_imperial_cult_creator_name_possessive:0 "Jupiter's"
+ roman_imperial_cult_health_god_name:0 "Asclepius"
+ roman_imperial_cult_fertility_god_name:0 "Ceres"
+ roman_imperial_cult_wealth_god_name:0 "Mercury"
+ roman_imperial_cult_household_god_name:0 "Vesta"
+ roman_imperial_cult_fate_god_name:0 "Fortuna"
+ roman_imperial_cult_knowledge_god_name:0 "Minerva"
+ roman_imperial_cult_war_god_name:0 "Mars"
+ roman_imperial_cult_trickster_god_name:0 "Mercury"
+ roman_imperial_cult_night_god_name:0 "Diana"
+ roman_imperial_cult_water_god_name:0 "Neptune"
+ roman_imperial_cult_pantheon_term:0 "the Roman Pantheon"
+ roman_imperial_cult_devil_name:0 "Pluto"
+ roman_imperial_cult_house_of_worship:0 "temple"
+ roman_imperial_cult_religious_symbol:0 "the Eagle"
+ roman_imperial_cult_religious_text:0 "the Sibylline Books"
+ roman_imperial_cult_religious_head_title:0 "Pontifex Maximus"
+ roman_imperial_cult_devotee_male:0 "cultist"
+ roman_imperial_cult_devotee_female:0 "cultist"
+ roman_imperial_cult_priest_male:0 "priest"
+ roman_imperial_cult_priest_female:0 "priestess"
+ roman_imperial_cult_divine_realm:0 "Olympus"
+ roman_imperial_cult_positive_afterlife:0 "the Elysian Fields"
+ roman_imperial_cult_negative_afterlife:0 "Tartarus"
+ 
+ # Germanic Religion
+ germanic_religion:0 "Germanic Paganism"
+ germanic_religion_adj:0 "Germanic Pagan"
+ germanic_religion_adherent:0 "Germanic Pagan"
+ germanic_religion_adherent_plural:0 "Germanic Pagans"
+ germanic_religion_desc:0 "The Germanic tribes honor a pantheon of warrior gods led by Wodan, emphasizing courage in battle, loyalty to clan, and the cyclical nature of fate."
+ 
+ # Celtic Druidism
+ celtic_druidism:0 "Celtic Druidism"
+ celtic_druidism_adj:0 "Druidic"
+ celtic_druidism_adherent:0 "Druid"
+ celtic_druidism_adherent_plural:0 "Druids"
+ celtic_druidism_desc:0 "The Druids serve as priests, judges, and teachers among the Celtic peoples, maintaining ancient wisdom and connection to the natural world."
+ 
+ # Kushite Religion
+ kushite_religion:0 "Kushite Religion"
+ kushite_religion_adj:0 "Kushite"
+ kushite_religion_adherent:0 "Kushite"
+ kushite_religion_adherent_plural:0 "Kushites"
+ kushite_religion_desc:0 "The Kushite religion blends Egyptian influences with local Nubian traditions, venerating both Amun and local deities under the guidance of powerful female rulers."
+ 
+ # Chinese Imperial Cult
+ chinese_imperial_cult:0 "Chinese Imperial Cult"
+ chinese_imperial_cult_adj:0 "Chinese Imperial"
+ chinese_imperial_cult_adherent:0 "Imperial Cultist"
+ chinese_imperial_cult_adherent_plural:0 "Imperial Cultists"
+ chinese_imperial_cult_desc:0 "The Chinese Imperial Cult combines ancestor veneration, the Mandate of Heaven, and Confucian ethics to legitimize imperial rule and maintain social harmony."
+ 
+ # Early Buddhism
+ early_buddhism:0 "Early Buddhism"
+ early_buddhism_adj:0 "Buddhist"
+ early_buddhism_adherent:0 "Buddhist"
+ early_buddhism_adherent_plural:0 "Buddhists"
+ early_buddhism_desc:0 "Early Buddhism emphasizes the Four Noble Truths and the Eightfold Path as the way to escape suffering and achieve enlightenment."

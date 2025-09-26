@@ -1,0 +1,228 @@
+ancient_pagan_group = {
+	family = rf_pagan
+	
+	color = { 0.6 0.4 0.2 }
+	
+	# Roman Imperial Cult
+	roman_imperial_cult = {
+		color = { 0.8 0.2 0.1 }
+		
+		doctrine = pagan_hostility_doctrine
+		
+		traits = {
+			virtues = { diligent ambitious }
+			sins = { lazy craven }
+		}
+		
+		custom_faith_icons = {
+			custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10
+		}
+		
+		holy_order_names = {
+			{ name = "holy_order_praetorian_guard" }
+		}
+		
+		holy_order_maa = praetorian_guards
+		
+		localization = {
+			#High God Name
+			HighGodName = roman_imperial_cult_high_god_name
+			HighGodName2 = roman_imperial_cult_high_god_name_2
+			HighGodNamePossessive = roman_imperial_cult_high_god_name_possessive
+			HighGodNameSheHe = CHARACTER_SHEHE_HE
+			HighGodHerselfHimself = CHARACTER_HIMSELF
+			HighGodHerHis = CHARACTER_HERHIS_HIS
+			HighGodNameAlternate = roman_imperial_cult_high_god_name_alternate
+			HighGodNameAlternatePossessive = roman_imperial_cult_high_god_name_alternate_possessive
+			
+			#Creator
+			CreatorName = roman_imperial_cult_creator_name
+			CreatorNamePossessive = roman_imperial_cult_creator_name_possessive
+			CreatorSheHe = CHARACTER_SHEHE_HE
+			CreatorHerHis = CHARACTER_HERHIS_HIS
+			CreatorHerHim = CHARACTER_HERHIM_HIM
+			
+			#HealthGod
+			HealthGodName = roman_imperial_cult_health_god_name
+			HealthGodNamePossessive = roman_imperial_cult_health_god_name_possessive
+			HealthGodSheHe = CHARACTER_SHEHE_HE
+			HealthGodHerHis = CHARACTER_HERHIS_HIS
+			HealthGodHerHim = CHARACTER_HERHIM_HIM
+			
+			#FertilityGod
+			FertilityGodName = roman_imperial_cult_fertility_god_name
+			FertilityGodNamePossessive = roman_imperial_cult_fertility_god_name_possessive
+			FertilityGodSheHe = CHARACTER_SHEHE_SHE
+			FertilityGodHerHis = CHARACTER_HERHIS_HER
+			FertilityGodHerHim = CHARACTER_HERHIM_HER
+			
+			#WealthGod
+			WealthGodName = roman_imperial_cult_wealth_god_name
+			WealthGodNamePossessive = roman_imperial_cult_wealth_god_name_possessive
+			WealthGodSheHe = CHARACTER_SHEHE_HE
+			WealthGodHerHis = CHARACTER_HERHIS_HIS
+			WealthGodHerHim = CHARACTER_HERHIM_HIM
+			
+			#HouseholdGod
+			HouseholdGodName = roman_imperial_cult_household_god_name
+			HouseholdGodNamePossessive = roman_imperial_cult_household_god_name_possessive
+			HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+			HouseholdGodHerHis = CHARACTER_HERHIS_HER
+			HouseholdGodHerHim = CHARACTER_HERHIM_HER
+			
+			#FateGod
+			FateGodName = roman_imperial_cult_fate_god_name
+			FateGodNamePossessive = roman_imperial_cult_fate_god_name_possessive
+			FateGodSheHe = CHARACTER_SHEHE_SHE
+			FateGodHerHis = CHARACTER_HERHIS_HER
+			FateGodHerHim = CHARACTER_HERHIM_HER
+			
+			#KnowledgeGod
+			KnowledgeGodName = roman_imperial_cult_knowledge_god_name
+			KnowledgeGodNamePossessive = roman_imperial_cult_knowledge_god_name_possessive
+			KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+			KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+			KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+			
+			#WarGod
+			WarGodName = roman_imperial_cult_war_god_name
+			WarGodNamePossessive = roman_imperial_cult_war_god_name_possessive
+			WarGodSheHe = CHARACTER_SHEHE_HE
+			WarGodHerHis = CHARACTER_HERHIS_HIS
+			WarGodHerHim = CHARACTER_HERHIM_HIM
+			
+			#TricksterGod
+			TricksterGodName = roman_imperial_cult_trickster_god_name
+			TricksterGodNamePossessive = roman_imperial_cult_trickster_god_name_possessive
+			TricksterGodSheHe = CHARACTER_SHEHE_HE
+			TricksterGodHerHis = CHARACTER_HERHIS_HIS
+			TricksterGodHerHim = CHARACTER_HERHIM_HIM
+			
+			#NightGod
+			NightGodName = roman_imperial_cult_night_god_name
+			NightGodNamePossessive = roman_imperial_cult_night_god_name_possessive
+			NightGodSheHe = CHARACTER_SHEHE_SHE
+			NightGodHerHis = CHARACTER_HERHIS_HER
+			NightGodHerHim = CHARACTER_HERHIM_HER
+			
+			#WaterGod
+			WaterGodName = roman_imperial_cult_water_god_name
+			WaterGodNamePossessive = roman_imperial_cult_water_god_name_possessive
+			WaterGodSheHe = CHARACTER_SHEHE_HE
+			WaterGodHerHis = CHARACTER_HERHIS_HIS
+			WaterGodHerHim = CHARACTER_HERHIM_HIM
+			
+			PantheonTerm = roman_imperial_cult_pantheon_term
+			PantheonTerm2 = roman_imperial_cult_pantheon_term_2
+			PantheonTerm3 = roman_imperial_cult_pantheon_term_3
+			PantheonTermHasHave = pantheon_term_have
+			GoodGodNames = { roman_imperial_cult_good_god_jupiter roman_imperial_cult_good_god_mars roman_imperial_cult_good_god_apollo }
+			DevilName = roman_imperial_cult_devil_name
+			DevilNamePossessive = roman_imperial_cult_devil_name_possessive
+			DevilSheHe = CHARACTER_SHEHE_HE
+			DevilHerHis = CHARACTER_HERHIS_HIS
+			DevilHerselfHimself = CHARACTER_HIMSELF
+			EvilGodNames = { roman_imperial_cult_evil_god_pluto roman_imperial_cult_evil_god_fury }
+			HouseOfWorship = roman_imperial_cult_house_of_worship
+			HouseOfWorship2 = roman_imperial_cult_house_of_worship_2
+			HouseOfWorship3 = roman_imperial_cult_house_of_worship_3
+			HouseOfWorshipPlural = roman_imperial_cult_house_of_worship_plural
+			ReligiousSymbol = roman_imperial_cult_religious_symbol
+			ReligiousSymbol2 = roman_imperial_cult_religious_symbol_2
+			ReligiousSymbol3 = roman_imperial_cult_religious_symbol_3
+			ReligiousText = roman_imperial_cult_religious_text
+			ReligiousText2 = roman_imperial_cult_religious_text_2
+			ReligiousText3 = roman_imperial_cult_religious_text_3
+			ReligiousHeadName = roman_imperial_cult_religious_head_title
+			ReligiousHeadTitleName = roman_imperial_cult_religious_head_title_name
+			DevoteeMale = roman_imperial_cult_devotee_male
+			DevoteeMalePlural = roman_imperial_cult_devotee_male_plural
+			DevoteeFemale = roman_imperial_cult_devotee_female
+			DevoteeFemalePlural = roman_imperial_cult_devotee_female_plural
+			DevoteeNeuter = roman_imperial_cult_devotee_neuter
+			DevoteeNeuterPlural = roman_imperial_cult_devotee_neuter_plural
+			PriestMale = roman_imperial_cult_priest_male
+			PriestMalePlural = roman_imperial_cult_priest_male_plural
+			PriestFemale = roman_imperial_cult_priest_female
+			PriestFemalePlural = roman_imperial_cult_priest_female_plural
+			PriestNeuter = roman_imperial_cult_priest_neuter
+			PriestNeuterPlural = roman_imperial_cult_priest_neuter_plural
+			AltPriestTermPlural = roman_imperial_cult_priest_alternate_plural
+			BishopMale = roman_imperial_cult_bishop_male
+			BishopMalePlural = roman_imperial_cult_bishop_male_plural
+			BishopFemale = roman_imperial_cult_bishop_female
+			BishopFemalePlural = roman_imperial_cult_bishop_female_plural
+			BishopNeuter = roman_imperial_cult_bishop_neuter
+			BishopNeuterPlural = roman_imperial_cult_bishop_neuter_plural
+			DivineRealm = roman_imperial_cult_divine_realm
+			DivineRealm2 = roman_imperial_cult_divine_realm_2
+			DivineRealm3 = roman_imperial_cult_divine_realm_3
+			PositiveAfterLife = roman_imperial_cult_positive_afterlife
+			PositiveAfterLife2 = roman_imperial_cult_positive_afterlife_2
+			PositiveAfterLife3 = roman_imperial_cult_positive_afterlife_3
+			NegativeAfterLife = roman_imperial_cult_negative_afterlife
+			NegativeAfterLife2 = roman_imperial_cult_negative_afterlife_2
+			NegativeAfterLife3 = roman_imperial_cult_negative_afterlife_3
+			DeathDeityName = roman_imperial_cult_death_deity_name
+			DeathDeityNamePossessive = roman_imperial_cult_death_deity_name_possessive
+			DeathDeitySheHe = CHARACTER_SHEHE_HE
+			DeathDeityHerHis = CHARACTER_HERHIS_HIS
+			WitchGodName = roman_imperial_cult_witch_god_name
+			WitchGodNamePossessive = roman_imperial_cult_witch_god_name_possessive
+			WitchGodSheHe = CHARACTER_SHEHE_SHE
+			WitchGodHerHis = CHARACTER_HERHIS_HER
+			WitchGodHerHim = CHARACTER_HERHIM_HER
+		}
+		
+		faiths = {
+			roman_imperial_cult = {
+				color = { 0.8 0.2 0.1 }
+				icon = roman_imperial_cult
+				reformed_icon = roman_imperial_cult_reformed
+				
+				doctrine = unreformed_faith_doctrine
+				
+				#Main Tenets
+				doctrine = tenet_ritual_celebrations
+				doctrine = tenet_communal_identity
+				doctrine = tenet_sacred_childbirth
+				
+				#Marriage
+				doctrine = doctrine_monogamy
+				
+				#Crimes
+				doctrine = doctrine_adultery_men_crime
+				doctrine = doctrine_adultery_women_crime
+				doctrine = doctrine_kinslaying_close_kin_crime
+				doctrine = doctrine_deviancy_crime
+				doctrine = doctrine_witchcraft_crime
+				
+				#Clerical Functions
+				doctrine = doctrine_clerical_function_taxation
+				doctrine = doctrine_clerical_gender_male_only
+				doctrine = doctrine_clerical_marriage_allowed
+				doctrine = doctrine_clerical_succession_temporal_appointment
+				
+				#Special Doctrines
+				doctrine = special_doctrine_divine_marriage_ruling_dynasty
+				
+				holy_sites = { rome neapolis salona athens antioch }
+				
+				localization = {
+					CreatorName = jupiter
+					CreatorNamePossessive = jupiter_possessive
+					HealthGodName = asclepius
+					FertilityGodName = ceres
+					WealthGodName = mercury
+					HouseholdGodName = vesta
+					FateGodName = fortuna
+					KnowledgeGodName = minerva
+					WarGodName = mars
+					TricksterGodName = mercury
+					NightGodName = diana
+					WaterGodName = neptune
+				}
+			}
+		}
+	}
+}

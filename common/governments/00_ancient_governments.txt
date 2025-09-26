@@ -1,0 +1,104 @@
+# Ancient Era Government Types
+
+# Imperial Government for major ancient empires
+imperial_government = {
+	create_cadet_branches = yes
+	rulers_should_have_dynasty = yes
+	dynasty_named_realms = yes
+	council = yes
+	
+	vassal_contract = {
+		feudal_government_vassal_contract
+	}
+	
+	character_modifier = {
+		vassal_limit = 20
+		domain_limit = 5
+		monthly_prestige = 1.0
+		same_culture_opinion = 10
+	}
+	
+	flag = government_is_imperial
+	
+	opinion = {
+		same_government_opinion = 5
+	}
+	
+	valid_holdings = {
+		castle_holding
+		city_holding
+	}
+	
+	required_county_holdings = {
+		castle_holding
+	}
+	
+	primary_holding = castle_holding
+	
+	ai_primary_priority = {
+		if = {
+			limit = { culture = { has_cultural_pillar = heritage_latin } }
+			add = 100
+		}
+		if = {
+			limit = { culture = { has_cultural_pillar = heritage_chinese } }
+			add = 100
+		}
+		if = {
+			limit = { culture = { has_cultural_pillar = heritage_iranian } }
+			add = 50
+		}
+	}
+}
+
+# Tribal Government for Germanic and Celtic tribes
+tribal_government = {
+	create_cadet_branches = yes
+	rulers_should_have_dynasty = yes
+	dynasty_named_realms = no
+	council = yes
+	
+	vassal_contract = {
+		tribal_government_vassal_contract
+	}
+	
+	character_modifier = {
+		vassal_limit = 10
+		domain_limit = 3
+		monthly_prestige = 0.5
+		same_culture_opinion = 15
+		different_culture_opinion = -10
+	}
+	
+	flag = government_is_tribal
+	
+	opinion = {
+		same_government_opinion = 10
+		different_government_opinion = -5
+	}
+	
+	valid_holdings = {
+		tribal_holding
+	}
+	
+	required_county_holdings = {
+		tribal_holding
+	}
+	
+	primary_holding = tribal_holding
+	
+	ai_primary_priority = {
+		if = {
+			limit = { culture = { has_cultural_pillar = heritage_germanic } }
+			add = 100
+		}
+		if = {
+			limit = { culture = { has_cultural_pillar = heritage_brythonic } }
+			add = 100
+		}
+		if = {
+			limit = { culture = { has_cultural_pillar = heritage_goidelic } }
+			add = 100
+		}
+	}
+}

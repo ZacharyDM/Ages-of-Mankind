@@ -1,0 +1,106 @@
+bm_ages_of_mankind_1_ad = {
+	start_date = 1.1.1
+	is_playable = yes
+	recommended = yes
+	
+	title = "bm_ages_of_mankind_1_ad"
+	desc = "bm_ages_of_mankind_1_ad_desc"
+	
+	default_gui = "bookmark_start_screen_muslim"
+	
+	character = {
+		dna = random_dna
+		history_id = 20001 # Augustus Caesar (placeholder)
+		title = e_roman_empire
+		
+		dynasty = 20001 # Julio-Claudian
+		birth_date = -62.9.23
+		
+		government = imperial_government
+		culture = roman
+		religion = roman_imperial_cult
+		
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history = "bm_augustus_caesar_desc"
+		animation = personality_bold
+	}
+	
+	character = {
+		dna = random_dna
+		history_id = 20002 # Arminius (Germanic chieftain)
+		title = c_cherusci
+		
+		dynasty = 20002 # Cherusci dynasty
+		birth_date = -18.1.1
+		
+		government = tribal_government
+		culture = cherusci
+		religion = germanic_religion
+		
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MODERATE"
+		history = "bm_arminius_desc"
+		animation = personality_brave
+	}
+	
+	character = {
+		dna = random_dna
+		history_id = 20003 # Vonones I of Parthia
+		title = e_parthian_empire
+		
+		dynasty = 20003 # Arsacid
+		birth_date = -30.1.1
+		
+		government = feudal_government
+		culture = parthian
+		religion = zoroastrianism
+		
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history = "bm_vonones_desc"
+		animation = personality_ambitious
+	}
+	
+	character = {
+		dna = random_dna
+		history_id = 20004 # Amanirenas of Kush
+		title = k_kush
+		
+		dynasty = 20004 # Meroitic
+		birth_date = -40.1.1
+		
+		government = feudal_government
+		culture = nubian
+		religion = kushite_religion
+		
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MODERATE"
+		history = "bm_amanirenas_desc"
+		animation = personality_bold
+	}
+	
+	character = {
+		dna = random_dna
+		history_id = 20005 # Emperor Ping of Han
+		title = e_han_china
+		
+		dynasty = 20005 # Han
+		birth_date = -8.1.1
+		
+		government = imperial_government
+		culture = han
+		religion = chinese_imperial_cult
+		
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history = "bm_emperor_ping_desc"
+		animation = personality_callous
+	}
+	
+	group = "bookmark_ages_of_mankind"
+	
+	# Flavor events and mechanics
+	effect = {
+		# Special mechanics for ancient era
+		set_global_variable = {
+			name = ancient_era_active
+			value = yes
+		}
+	}
+}

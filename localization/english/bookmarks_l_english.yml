@@ -1,0 +1,19 @@
+﻿l_english:
+ 
+ # Bookmark
+ bm_ages_of_mankind_1_ad:0 "The Dawn of the Common Era"
+ bm_ages_of_mankind_1_ad_desc:0 "The year 1 CE marks a pivotal moment in human history. The Roman Empire under Augustus reaches its zenith, controlling the Mediterranean world. Germanic tribes beyond the Rhine prepare to challenge Roman supremacy. In the East, the Han Dynasty rules over China while the Parthian Empire controls Persia. In Nubia, the Kushite kingdom maintains its ancient traditions. This is an age of great empires, but also of tribal warriors and emerging religions that will shape the future of mankind."
+ 
+ # Character descriptions
+ bm_augustus_caesar_desc:0 "Augustus Caesar, the first Roman Emperor, has transformed the Roman Republic into a mighty empire. Under his rule, Rome has achieved unprecedented peace and prosperity - the Pax Romana. But succession looms large as the aging emperor must secure the future of his dynasty."
+ 
+ bm_arminius_desc:0 "Arminius of the Cherusci tribe, educated in Rome but loyal to his Germanic people, stands as a symbol of resistance against Roman expansion. His knowledge of Roman tactics makes him a formidable opponent to imperial ambitions beyond the Rhine."
+ 
+ bm_vonones_desc:0 "Vonones I rules the Parthian Empire, heir to the legacy of the Achaemenids and Alexander's successors. The Parthians control the crucial trade routes between East and West, making them both wealthy and strategically important in the ancient world."
+ 
+ bm_amanirenas_desc:0 "The Kandake (Queen) Amanirenas leads the Kingdom of Kush from Meroë. Having successfully resisted Roman expansion into Nubia, she represents the strength and independence of African kingdoms in the ancient world."
+ 
+ bm_emperor_ping_desc:0 "Emperor Ping of Han rules over the Middle Kingdom during a time of internal strife. Though young, he embodies the Mandate of Heaven and the continuous legacy of Chinese civilization stretching back millennia."
+ 
+ # Bookmark group
+ bookmark_ages_of_mankind:0 "Ages of Mankind"

@@ -1,0 +1,214 @@
+# Ancient Dynasties for 1 AD Bookmark
+
+# Roman Dynasties
+20001 = {
+	name = "dynn_julio_claudian"
+	culture = roman
+	prefix = "dynnp_julio_claudian"
+	
+	coat_of_arms = {
+		pattern = "pattern_solid.dds"
+		color1 = "red"
+		color2 = "yellow"
+		colored_emblem = {
+			texture = "ce_eagle.dds"
+			color1 = "yellow"
+			instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+		}
+	}
+}
+
+20002 = {
+	name = "dynn_cherusci"
+	culture = cherusci
+	prefix = "dynnp_cherusci"
+	
+	coat_of_arms = {
+		pattern = "pattern_solid.dds"
+		color1 = "dark_green"
+		color2 = "white"
+		colored_emblem = {
+			texture = "ce_wolf.dds"
+			color1 = "white"
+			instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+		}
+	}
+}
+
+# Parthian/Persian Dynasties
+20003 = {
+	name = "dynn_arsacid"
+	culture = parthian
+	prefix = "dynnp_arsacid"
+	
+	coat_of_arms = {
+		pattern = "pattern_solid.dds"
+		color1 = "blue"
+		color2 = "yellow"
+		colored_emblem = {
+			texture = "ce_lion.dds"
+			color1 = "yellow"
+			instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+		}
+	}
+}
+
+# Nubian/Kushite Dynasties
+20004 = {
+	name = "dynn_meroitic"
+	culture = nubian
+	prefix = "dynnp_meroitic"
+	
+	coat_of_arms = {
+		pattern = "pattern_solid.dds"
+		color1 = "black"
+		color2 = "yellow"
+		colored_emblem = {
+			texture = "ce_phoenix.dds"
+			color1 = "yellow"
+			instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+		}
+	}
+}
+
+# Chinese Dynasties
+20005 = {
+	name = "dynn_han"
+	culture = han
+	prefix = "dynnp_han"
+	
+	coat_of_arms = {
+		pattern = "pattern_solid.dds"
+		color1 = "yellow"
+		color2 = "red"
+		colored_emblem = {
+			texture = "ce_dragon.dds"
+			color1 = "red"
+			instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+		}
+	}
+}
+
+# Germanic Dynasties
+20006 = {
+	name = "dynn_suebi"
+	culture = suebi
+	prefix = "dynnp_suebi"
+	
+	coat_of_arms = {
+		pattern = "pattern_solid.dds"
+		color1 = "brown"
+		color2 = "white"
+		colored_emblem = {
+			texture = "ce_bear.dds"
+			color1 = "white"
+			instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+		}
+	}
+}
+
+# Celtic Dynasties
+20007 = {
+	name = "dynn_catuvellauni"
+	culture = briton
+	prefix = "dynnp_catuvellauni"
+	
+	coat_of_arms = {
+		pattern = "pattern_solid.dds"
+		color1 = "green"
+		color2 = "white"
+		colored_emblem = {
+			texture = "ce_stag.dds"
+			color1 = "white"
+			instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+		}
+	}
+}
+
+20008 = {
+	name = "dynn_iceni"
+	culture = briton
+	prefix = "dynnp_iceni"
+	
+	coat_of_arms = {
+		pattern = "pattern_solid.dds"
+		color1 = "blue"
+		color2 = "white"
+		colored_emblem = {
+			texture = "ce_horse.dds"
+			color1 = "white"
+			instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+		}
+	}
+}
+
+# Gallic Dynasties
+20009 = {
+	name = "dynn_aedui"
+	culture = gallic
+	prefix = "dynnp_aedui"
+	
+	coat_of_arms = {
+		pattern = "pattern_solid.dds"
+		color1 = "green"
+		color2 = "yellow"
+		colored_emblem = {
+			texture = "ce_boar.dds"
+			color1 = "yellow"
+			instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+		}
+	}
+}
+
+20010 = {
+	name = "dynn_arverni"
+	culture = gallic
+	prefix = "dynnp_arverni"
+	
+	coat_of_arms = {
+		pattern = "pattern_solid.dds"
+		color1 = "red"
+		color2 = "white"
+		colored_emblem = {
+			texture = "ce_eagle.dds"
+			color1 = "white"
+			instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+		}
+	}
+}
+
+# Armenian Dynasties
+20011 = {
+	name = "dynn_artaxiad"
+	culture = armenian
+	prefix = "dynnp_artaxiad"
+	
+	coat_of_arms = {
+		pattern = "pattern_solid.dds"
+		color1 = "purple"
+		color2 = "yellow"
+		colored_emblem = {
+			texture = "ce_crown.dds"
+			color1 = "yellow"
+			instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+		}
+	}
+}
+
+# Scythian Dynasties
+20012 = {
+	name = "dynn_scythian_royal"
+	culture = scythian
+	prefix = "dynnp_scythian_royal"
+	
+	coat_of_arms = {
+		pattern = "pattern_solid.dds"
+		color1 = "dark_blue"
+		color2 = "white"
+		colored_emblem = {
+			texture = "ce_horse.dds"
+			color1 = "white"
+			instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+		}
+	}
+}

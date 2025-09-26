@@ -1,0 +1,206 @@
+# Ancient Era Rulers for 1 AD Bookmark
+
+# Augustus Caesar - Roman Emperor
+20001 = {
+	name = "Augustus"
+	dynasty = 20001
+	
+	religion = roman_imperial_cult
+	culture = roman
+	
+	father = 20100 # Gaius Octavius
+	
+	trait = ambitious
+	trait = diligent
+	trait = brave
+	trait = temperate
+	trait = just
+	
+	diplomacy = 18
+	martial = 14
+	stewardship = 19
+	intrigue = 16
+	learning = 15
+	prowess = 12
+	
+	-62.9.23 = {
+		birth = yes
+	}
+	
+	1.1.1 = {
+		employer = 20001
+		effect = {
+			add_character_flag = historical_ruler
+		}
+	}
+	
+	14.8.14 = {
+		death = { death_reason = death_natural }
+	}
+}
+
+# Arminius - Cherusci Chieftain
+20002 = {
+	name = "Arminius"
+	dynasty = 20002
+	
+	religion = germanic_religion
+	culture = cherusci
+	
+	trait = brave
+	trait = ambitious
+	trait = wrathful
+	trait = vengeful
+	trait = zealous
+	
+	diplomacy = 16
+	martial = 19
+	stewardship = 12
+	intrigue = 17
+	learning = 11
+	prowess = 18
+	
+	-18.1.1 = {
+		birth = yes
+	}
+	
+	1.1.1 = {
+		employer = 20002
+		effect = {
+			add_character_flag = historical_ruler
+		}
+	}
+	
+	21.1.1 = {
+		death = { death_reason = death_murder }
+	}
+}
+
+# Vonones I - Parthian King
+20003 = {
+	name = "Vonones"
+	dynasty = 20003
+	
+	religion = zoroastrianism
+	culture = parthian
+	
+	trait = ambitious
+	trait = deceitful
+	trait = greedy
+	trait = proud
+	trait = diligent
+	
+	diplomacy = 15
+	martial = 13
+	stewardship = 16
+	intrigue = 18
+	learning = 14
+	prowess = 11
+	
+	-30.1.1 = {
+		birth = yes
+	}
+	
+	1.1.1 = {
+		employer = 20003
+		effect = {
+			add_character_flag = historical_ruler
+		}
+	}
+	
+	19.1.1 = {
+		death = { death_reason = death_natural }
+	}
+}
+
+# Amanirenas - Kushite Kandake (Queen)
+20004 = {
+	name = "Amanirenas"
+	dynasty = 20004
+	female = yes
+	
+	religion = kushite_religion
+	culture = nubian
+	
+	trait = brave
+	trait = ambitious
+	trait = just
+	trait = generous
+	trait = stubborn
+	
+	diplomacy = 17
+	martial = 16
+	stewardship = 15
+	intrigue = 14
+	learning = 13
+	prowess = 15
+	
+	-40.1.1 = {
+		birth = yes
+	}
+	
+	1.1.1 = {
+		employer = 20004
+		effect = {
+			add_character_flag = historical_ruler
+		}
+	}
+	
+	10.1.1 = {
+		death = { death_reason = death_natural }
+	}
+}
+
+# Emperor Ping of Han
+20005 = {
+	name = "Ping"
+	dynasty = 20005
+	
+	religion = chinese_imperial_cult
+	culture = han
+	
+	trait = patient
+	trait = temperate
+	trait = humble
+	trait = calm
+	trait = compassionate
+	
+	diplomacy = 14
+	martial = 10
+	stewardship = 16
+	intrigue = 12
+	learning = 17
+	prowess = 8
+	
+	-8.1.1 = {
+		birth = yes
+	}
+	
+	1.1.1 = {
+		employer = 20005
+		effect = {
+			add_character_flag = historical_ruler
+		}
+	}
+	
+	6.2.3 = {
+		death = { death_reason = death_natural }
+	}
+}
+
+# Additional family members for context
+20100 = {
+	name = "Gaius_Octavius"
+	dynasty = 20001
+	
+	religion = roman_imperial_cult
+	culture = roman
+	
+	-100.1.1 = {
+		birth = yes
+	}
+	
+	-59.1.1 = {
+		death = { death_reason = death_natural }
+	}
+}

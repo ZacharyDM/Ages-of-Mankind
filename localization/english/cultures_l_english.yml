@@ -1,0 +1,45 @@
+﻿l_english:
+ 
+ # Culture Groups
+ ancient_mediterranean:0 "Ancient Mediterranean"
+ ancient_northern:0 "Ancient Northern"
+ ancient_eastern:0 "Ancient Eastern"
+ 
+ # Mediterranean Cultures
+ roman:0 "Roman"
+ roman_desc:0 "The Romans have built the greatest empire the world has ever seen, stretching from Britain to Mesopotamia. Their culture emphasizes discipline, law, and civic duty, while their military might is unmatched."
+ 
+ greek:0 "Greek"
+ greek_desc:0 "Heirs to the legacy of Athens and Sparta, the Greeks have given the world philosophy, democracy, and the arts. Though politically fragmented, their cultural influence spreads throughout the Mediterranean."
+ 
+ gallic:0 "Gallic"
+ gallic_desc:0 "The Celtic peoples of Gaul were fierce warriors before their conquest by Rome. They maintain their traditions of craftsmanship, storytelling, and warrior culture despite Roman rule."
+ 
+ carthaginian:0 "Carthaginian"
+ carthaginian_desc:0 "The Carthaginians were master traders and seafarers who once challenged Rome for control of the Mediterranean. Though their empire fell, their commercial legacy endures."
+ 
+ # Northern Cultures
+ cherusci:0 "Cherusci"
+ cherusci_desc:0 "A Germanic tribe known for their fierce independence and warrior culture. Led by heroes like Arminius, they resist Roman expansion beyond the Rhine."
+ 
+ suebi:0 "Suebi"
+ suebi_desc:0 "The largest and most warlike of the Germanic confederations, the Suebi are renowned for their mobility and fighting prowess."
+ 
+ briton:0 "Briton"
+ briton_desc:0 "The Celtic peoples of Britain maintain their ancient traditions of warrior culture and druidic wisdom, facing the growing threat of Roman invasion."
+ 
+ pictish:0 "Pictish"
+ pictish_desc:0 "The painted warriors of northern Britain, the Picts are fierce defenders of their highland territories and ancient traditions."
+ 
+ # Eastern Cultures
+ parthian:0 "Parthian"
+ parthian_desc:0 "The Parthians rule a vast empire stretching from Mesopotamia to Central Asia, serving as the great rival to Roman power in the East."
+ 
+ han:0 "Han Chinese"
+ han_desc:0 "The Han Chinese represent the height of ancient Chinese civilization, with advanced bureaucracy, philosophy, and technology that will influence East Asia for millennia."
+ 
+ scythian:0 "Scythian"
+ scythian_desc:0 "Nomadic horse warriors of the steppes, the Scythians are master archers and raiders who have successfully resisted conquest by sedentary empires."
+ 
+ armenian:0 "Armenian"
+ armenian_desc:0 "The Armenians control the vital crossroads between East and West, maintaining their independence through diplomacy and mountain warfare."
