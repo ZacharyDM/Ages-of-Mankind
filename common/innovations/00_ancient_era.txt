@@ -1,0 +1,272 @@
+# Ancient Era Innovations (1 AD period)
+
+innovation_ancient_tribal = {
+	group = culture_group_military
+	
+	# Ancient tribal military innovations
+	innovation_iron_working = {
+		potential = {
+			OR = {
+				culture = { has_cultural_pillar = heritage_germanic }
+				culture = { has_cultural_pillar = heritage_brythonic }
+				culture = { has_cultural_pillar = heritage_goidelic }
+			}
+		}
+		
+		# Unlocked by
+		unlock = {
+			custom_description = {
+				text = "unlock_innovation_culture_era_tribal"
+				OR = {
+					culture = { has_cultural_era = culture_era_tribal }
+				}
+			}
+		}
+		
+		# Effects
+		character_modifier = {
+			men_at_arms_recruitment_cost = -0.05
+			men_at_arms_maintenance = -0.05
+		}
+		
+		flag = global
+		
+		# Requirements
+		culture_modifier = {
+			cultural_acceptance_gain_mult = 0.05
+		}
+	}
+	
+	innovation_warrior_lodges = {
+		potential = {
+			OR = {
+				culture = { has_cultural_pillar = heritage_germanic }
+				culture = { has_cultural_pillar = heritage_brythonic }
+			}
+		}
+		
+		unlock = {
+			custom_description = {
+				text = "unlock_innovation_culture_era_tribal"
+				OR = {
+					culture = { has_cultural_era = culture_era_tribal }
+				}
+			}
+		}
+		
+		character_modifier = {
+			men_at_arms_recruitment_cost = -0.1
+			knight_effectiveness_mult = 0.05
+		}
+		
+		flag = global
+		
+		culture_modifier = {
+			cultural_acceptance_gain_mult = 0.05
+		}
+	}
+	
+	innovation_tribal_gathering = {
+		potential = {
+			OR = {
+				culture = { has_cultural_pillar = heritage_germanic }
+				culture = { has_cultural_pillar = heritage_brythonic }
+				culture = { has_cultural_pillar = heritage_goidelic }
+			}
+		}
+		
+		unlock = {
+			custom_description = {
+				text = "unlock_innovation_culture_era_tribal"
+				OR = {
+					culture = { has_cultural_era = culture_era_tribal }
+				}
+			}
+		}
+		
+		character_modifier = {
+			monthly_prestige = 0.1
+		}
+		
+		flag = global
+		
+		culture_modifier = {
+			cultural_acceptance_gain_mult = 0.05
+		}
+	}
+}
+
+innovation_ancient_classical = {
+	group = culture_group_civic
+	
+	# Classical era innovations for Roman/Greek cultures
+	innovation_aqueducts = {
+		potential = {
+			OR = {
+				culture = roman
+				culture = greek
+			}
+		}
+		
+		unlock = {
+			custom_description = {
+				text = "unlock_innovation_culture_era_classical"
+				OR = {
+					culture = { has_cultural_era = culture_era_early_medieval }
+				}
+			}
+		}
+		
+		character_modifier = {
+			county_opinion_add = 5
+			development_growth_factor = 0.05
+		}
+		
+		flag = global
+		
+		culture_modifier = {
+			development_growth_factor = 0.05
+		}
+	}
+	
+	innovation_roman_law = {
+		potential = {
+			culture = roman
+		}
+		
+		unlock = {
+			custom_description = {
+				text = "unlock_innovation_culture_era_classical"
+				OR = {
+					culture = { has_cultural_era = culture_era_early_medieval }
+				}
+			}
+		}
+		
+		character_modifier = {
+			county_opinion_add = 10
+			vassal_opinion = 5
+		}
+		
+		flag = global
+		
+		culture_modifier = {
+			cultural_acceptance_gain_mult = 0.1
+		}
+	}
+	
+	innovation_greek_philosophy = {
+		potential = {
+			culture = greek
+		}
+		
+		unlock = {
+			custom_description = {
+				text = "unlock_innovation_culture_era_classical"
+				OR = {
+					culture = { has_cultural_era = culture_era_early_medieval }
+				}
+			}
+		}
+		
+		character_modifier = {
+			learning_per_piety_level = 1
+			monthly_piety = 0.1
+		}
+		
+		flag = global
+		
+		culture_modifier = {
+			development_growth_factor = 0.05
+		}
+	}
+}
+
+innovation_ancient_eastern = {
+	group = culture_group_regional
+	
+	# Eastern innovations
+	innovation_silk_road = {
+		potential = {
+			OR = {
+				culture = han
+				culture = parthian
+				culture = armenian
+			}
+		}
+		
+		unlock = {
+			custom_description = {
+				text = "unlock_innovation_culture_era_ancient"
+				OR = {
+					culture = { has_cultural_era = culture_era_early_medieval }
+				}
+			}
+		}
+		
+		character_modifier = {
+			monthly_income_mult = 0.05
+		}
+		
+		flag = global
+		
+		culture_modifier = {
+			cultural_acceptance_gain_mult = 0.1
+		}
+	}
+	
+	innovation_imperial_bureaucracy = {
+		potential = {
+			OR = {
+				culture = han
+				culture = roman
+			}
+		}
+		
+		unlock = {
+			custom_description = {
+				text = "unlock_innovation_culture_era_ancient"
+				OR = {
+					culture = { has_cultural_era = culture_era_early_medieval }
+				}
+			}
+		}
+		
+		character_modifier = {
+			domain_limit = 1
+			vassal_limit = 2
+		}
+		
+		flag = global
+		
+		culture_modifier = {
+			development_growth_factor = 0.05
+		}
+	}
+	
+	innovation_fire_temples = {
+		potential = {
+			culture = parthian
+		}
+		
+		unlock = {
+			custom_description = {
+				text = "unlock_innovation_culture_era_ancient"
+				OR = {
+					culture = { has_cultural_era = culture_era_early_medieval }
+				}
+			}
+		}
+		
+		character_modifier = {
+			monthly_piety = 0.15
+			same_faith_opinion = 5
+		}
+		
+		flag = global
+		
+		culture_modifier = {
+			cultural_acceptance_gain_mult = 0.05
+		}
+	}
+}

@@ -1,0 +1,173 @@
+ancient_tribal_group = {
+	family = rf_pagan
+	
+	color = { 0.3 0.6 0.2 }
+	
+	# Germanic Paganism (simplified for ancient era)
+	germanic_religion = {
+		color = { 0.4 0.3 0.1 }
+		
+		doctrine = pagan_hostility_doctrine
+		
+		traits = {
+			virtues = { brave ambitious }
+			sins = { craven lazy }
+		}
+		
+		custom_faith_icons = {
+			custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5
+		}
+		
+		holy_order_names = {
+			{ name = "holy_order_wolf_warriors" }
+		}
+		
+		holy_order_maa = varangian_veterans
+		
+		faiths = {
+			germanic_religion = {
+				color = { 0.4 0.3 0.1 }
+				icon = germanic_pagan
+				reformed_icon = germanic_pagan_reformed
+				
+				doctrine = unreformed_faith_doctrine
+				
+				#Main Tenets
+				doctrine = tenet_warrior_culture
+				doctrine = tenet_ritual_celebrations
+				doctrine = tenet_communal_identity
+				
+				#Marriage
+				doctrine = doctrine_polygamy
+				
+				#Crimes
+				doctrine = doctrine_adultery_men_shunned
+				doctrine = doctrine_adultery_women_crime
+				doctrine = doctrine_kinslaying_close_kin_crime
+				doctrine = doctrine_deviancy_crime
+				doctrine = doctrine_witchcraft_accepted
+				
+				#Clerical Functions
+				doctrine = doctrine_clerical_function_taxation
+				doctrine = doctrine_clerical_gender_either
+				doctrine = doctrine_clerical_marriage_allowed
+				doctrine = doctrine_clerical_succession_temporal_appointment
+				
+				holy_sites = { copenhagen lund sigtuna gamla_uppsala reykjavik }
+			}
+		}
+	}
+	
+	# Celtic Druidism
+	celtic_druidism = {
+		color = { 0.2 0.5 0.4 }
+		
+		doctrine = pagan_hostility_doctrine
+		
+		traits = {
+			virtues = { patient learning }
+			sins = { impatient ignorant }
+		}
+		
+		custom_faith_icons = {
+			custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5
+		}
+		
+		holy_order_names = {
+			{ name = "holy_order_druids" }
+		}
+		
+		holy_order_maa = gallowglass
+		
+		faiths = {
+			celtic_druidism = {
+				color = { 0.2 0.5 0.4 }
+				icon = celtic_pagan
+				reformed_icon = celtic_pagan_reformed
+				
+				doctrine = unreformed_faith_doctrine
+				
+				#Main Tenets
+				doctrine = tenet_sacred_groves
+				doctrine = tenet_ritual_celebrations
+				doctrine = tenet_communal_identity
+				
+				#Marriage
+				doctrine = doctrine_monogamy
+				
+				#Crimes
+				doctrine = doctrine_adultery_men_shunned
+				doctrine = doctrine_adultery_women_shunned
+				doctrine = doctrine_kinslaying_close_kin_crime
+				doctrine = doctrine_deviancy_shunned
+				doctrine = doctrine_witchcraft_accepted
+				
+				#Clerical Functions
+				doctrine = doctrine_clerical_function_taxation
+				doctrine = doctrine_clerical_gender_either
+				doctrine = doctrine_clerical_marriage_allowed
+				doctrine = doctrine_clerical_succession_temporal_appointment
+				
+				holy_sites = { dublin connacht ulster isle_of_man cornwall }
+			}
+		}
+	}
+	
+	# Kushite Religion (Nubian/Ethiopian)
+	kushite_religion = {
+		color = { 0.6 0.4 0.2 }
+		
+		doctrine = pagan_hostility_doctrine
+		
+		traits = {
+			virtues = { just generous }
+			sins = { arbitrary greedy }
+		}
+		
+		custom_faith_icons = {
+			custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5
+		}
+		
+		holy_order_names = {
+			{ name = "holy_order_kandake_guard" }
+		}
+		
+		holy_order_maa = nubians
+		
+		faiths = {
+			kushite_religion = {
+				color = { 0.6 0.4 0.2 }
+				icon = west_african_pagan
+				reformed_icon = west_african_pagan_reformed
+				
+				doctrine = unreformed_faith_doctrine
+				
+				#Main Tenets
+				doctrine = tenet_ritual_celebrations
+				doctrine = tenet_communal_identity
+				doctrine = tenet_sacred_childbirth
+				
+				#Marriage
+				doctrine = doctrine_polygamy
+				
+				#Crimes
+				doctrine = doctrine_adultery_men_shunned
+				doctrine = doctrine_adultery_women_crime
+				doctrine = doctrine_kinslaying_close_kin_crime
+				doctrine = doctrine_deviancy_crime
+				doctrine = doctrine_witchcraft_crime
+				
+				#Clerical Functions
+				doctrine = doctrine_clerical_function_taxation
+				doctrine = doctrine_clerical_gender_either
+				doctrine = doctrine_clerical_marriage_allowed
+				doctrine = doctrine_clerical_succession_temporal_appointment
+				
+				#Special Doctrines
+				doctrine = special_doctrine_female_preference
+				
+				holy_sites = { dongola aswan meroe axum soba }
+			}
+		}
+	}
+}

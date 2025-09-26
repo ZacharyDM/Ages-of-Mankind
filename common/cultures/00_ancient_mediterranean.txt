@@ -1,0 +1,122 @@
+ancient_mediterranean = {
+	color = { 0.8 0.4 0.1 }
+	
+	roman = {
+		color = { 0.8 0.2 0.1 }
+		
+		ethos = ethos_ceremonial
+		heritage = heritage_latin
+		language = language_latin
+		martial_custom = martial_custom_male_only
+		traditions = {
+			tradition_roman_legacy
+			tradition_ancient_miners
+			tradition_practiced_pirates
+		}
+		
+		name_list = name_list_roman
+		
+		coa_gfx = { roman_group_coa_gfx }
+		building_gfx = { mediterranean_building_gfx }
+		clothing_gfx = { roman_clothing_gfx }
+		unit_gfx = { roman_unit_gfx }
+		
+		counties = {
+			c_roma # Rome
+			c_latium # Latium
+			c_campania # Campania
+			c_apulia # Apulia
+			c_calabria # Calabria
+			c_sicilia # Sicily
+			c_sardinia # Sardinia
+			c_corsica # Corsica
+		}
+	}
+	
+	greek = {
+		color = { 0.2 0.4 0.8 }
+		
+		ethos = ethos_philosophical
+		heritage = heritage_byzantine
+		language = language_greek
+		martial_custom = martial_custom_male_only
+		traditions = {
+			tradition_philosopher_culture
+			tradition_maritime_mercantilism
+			tradition_ancient_miners
+		}
+		
+		name_list = name_list_greek
+		
+		coa_gfx = { byzantinian_group_coa_gfx }
+		building_gfx = { mediterranean_building_gfx }
+		clothing_gfx = { byzantine_clothing_gfx }
+		unit_gfx = { greek_unit_gfx }
+		
+		counties = {
+			c_athens # Athens
+			c_sparta # Sparta
+			c_thebes # Thebes
+			c_corinth # Corinth
+			c_patras # Patras
+			c_rhodes # Rhodes
+			c_krete # Crete
+		}
+	}
+	
+	gallic = {
+		color = { 0.1 0.6 0.2 }
+		
+		ethos = ethos_bellicose
+		heritage = heritage_central_germanic
+		language = language_gaulish
+		martial_custom = martial_custom_male_only
+		traditions = {
+			tradition_warrior_culture
+			tradition_ancient_miners
+			tradition_forest_wardens
+		}
+		
+		name_list = name_list_frankish
+		
+		coa_gfx = { frankish_group_coa_gfx }
+		building_gfx = { western_building_gfx }
+		clothing_gfx = { western_clothing_gfx }
+		unit_gfx = { frankish_unit_gfx }
+		
+		counties = {
+			c_paris # Lutetia (Paris)
+			c_lyon # Lugdunum (Lyon)
+			c_marseilles # Massilia (Marseilles)
+			c_toulouse # Tolosa (Toulouse)
+			c_bordeaux # Burdigala (Bordeaux)
+		}
+	}
+	
+	carthaginian = {
+		color = { 0.7 0.1 0.6 }
+		
+		ethos = ethos_mercantile
+		heritage = heritage_levantine
+		language = language_phoenician
+		martial_custom = martial_custom_male_only
+		traditions = {
+			tradition_maritime_mercantilism
+			tradition_practiced_pirates
+			tradition_ancient_miners
+		}
+		
+		name_list = name_list_arabic
+		
+		coa_gfx = { arabic_group_coa_gfx }
+		building_gfx = { arabic_building_gfx }
+		clothing_gfx = { arabic_clothing_gfx }
+		unit_gfx = { arabic_unit_gfx }
+		
+		counties = {
+			c_tunis # Carthage
+			c_tripoli # Tripoli
+			c_cyrenaica # Cyrenaica
+		}
+	}
+}
